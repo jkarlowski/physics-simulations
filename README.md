@@ -31,7 +31,7 @@ To keep the project organized, the simulations are categorized by their correspo
 ### 1. Dynamics of a Material Point
 * 📂 **Path:** `mechanics/dynamics_of_material_point.ipynb`
 * 🌌 **The Physics:** This notebook explores classical mechanics by modeling the motion of a particle subjected to various force fields (e.g., constant gravity, linear drag, and harmonic potentials). It simulates how kinematic variables evolve under Newton's second law.
-* 🧮 **Numerical Approach:** Implements standard Ordinary Differential Equation (ODE) integration techniques, comparing basic **Euler's method** with more stable solvers like **Runge-Kutta 4th Order (RK4)** or `scipy.integrate.solve_ivp`.
+* 🧮 **Numerical Approach:** Implements standard Ordinary Differential Equation (ODE) integration techniques, comparing basic **Euler's method** with more stable solvers like **Runge-Kutta 4th Order (RK4)**.
 * 📊 **Key Visualizations:** Generates trajectory plots, velocity-time profiles, and phase space diagrams ($x$ vs $v$) illustrating chaotic or periodic behaviors.
 
 ---
@@ -55,5 +55,5 @@ To keep the project organized, the simulations are categorized by their correspo
 ### 4. String Wave Equation Model
 * 📂 **Path:** `waves/string_wave_equation.ipynb`
 * 🌌 **The Physics:** Simulates the dynamics of a continuous vibrating string fixed at both ends, governed by the 1D hyperbolic Partial Differential Equation (PDE): $\frac{\partial^2 u}{\partial t^2} = v^2 \frac{\partial^2 u}{\partial x^2}$.
-* 🧮 **Numerical Approach:** Uses a second-order central difference scheme in both space and time (the standard **leapfrog integration** method for waves). It respects the **CFL (Courant-Friedrichs-Lewy) stability criterion** to prevent numerical explosion.
+* 🧮 **Numerical Approach:** Uses a second-order central difference scheme in both space and time. It respects the **CFL (Courant-Friedrichs-Lewy) stability criterion** to prevent numerical explosion.
 * 📊 **Key Visualizations:** Time-evolution surface plots (3D mesh plots showing displacement over space and time) or animated 2D lines representing standing waves, fundamental harmonics, and wave reflections at fixed boundaries.
