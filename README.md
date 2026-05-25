@@ -25,6 +25,7 @@ To keep the project organized, the simulations are categorized by their correspo
 ├── requirements.txt
 └── README.md
 
+```
 ## 🔬 Simulations Overview
 
 ### 1. Dynamics of a Material Point
